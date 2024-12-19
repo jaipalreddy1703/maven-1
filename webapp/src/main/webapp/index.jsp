@@ -11,7 +11,6 @@
     <input type="password" placeholder="Enter Password" name="psw" required>
 <br></br>
    <button type="submit">Login</button>
-   <button type="reset">Clear</button>
 <style>
 h1
 {
