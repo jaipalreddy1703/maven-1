@@ -53,7 +53,7 @@
                 <input type="password" id="password" name="password" class="form-control" required>
             </div>
             <button class="btn btn-primary" type="submit">SIGN IN</button>
-            
+            <button class="btn btn-primary" type="">FORGOT PASSWORD</button>
         </form>
         <% } else { %>
         <!-- Logout Form -->
