@@ -38,7 +38,7 @@
         %>
         <!-- Login Form -->
         <form class="form-login" method="post" action="login.jsp">
-            <h2 class="mb-3">KROGER</h2>
+            <h2 class="mb-3">LOGIN</h2>
             <% if (request.getParameter("error") != null) { %>
                 <div class="alert alert-danger" role="alert">
                     Invalid username or password!
@@ -53,7 +53,7 @@
                 <input type="password" id="password" name="password" class="form-control" required>
             </div>
             <button class="btn btn-primary" type="submit">SIGN IN</button>
-            <button class="btn btn-primary" type="">FORGOT PASSWORD</button>
+            
         </form>
         <% } else { %>
         <!-- Logout Form -->
